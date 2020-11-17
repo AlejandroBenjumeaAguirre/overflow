@@ -1,0 +1,39 @@
+{
+  "name": "platzi-overflow",
+  "version": "1.0.0",
+  "description": "Un sitio como StackOverflow",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --ext js,hbs",
+    "lint": "standard",
+    "lint-fix": "standard --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "standard": "^16.0.1"
+  },
+  "dependencies": {
+    "@hapi/basic": "^6.0.0",
+    "@hapi/boom": "^9.1.0",
+    "@hapi/catbox": "^11.1.1",
+    "@hapi/crumb": "^8.0.1",
+    "@hapi/good": "^9.0.1",
+    "@hapi/good-console": "^9.0.1",
+    "@hapi/hapi": "^20.0.1",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/joi": "^17.1.1",
+    "@hapi/scooter": "^6.0.1",
+    "@hapi/vision": "^6.0.1",
+    "bcrypt": "^5.0.0",
+    "blankie": "^5.0.0",
+    "firebase-admin": "^9.3.0",
+    "handlebars": "^4.7.6",
+    "hapi": "^18.1.0",
+    "hapi-dev-errors": "^4.0.0",
+    "joi": "^17.3.0",
+    "uuid": "^8.3.1"
+  }
+}
